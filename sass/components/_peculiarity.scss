@@ -1,0 +1,33 @@
+.peculiarity {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 30px;
+    border-radius: 4px;
+    max-width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+  }
+  
+  &__title {
+    color: $secondary-color;
+  
+    margin-bottom: 10px;
+    font-size: inherit;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    line-height: 1.7;
+    max-width: 250px;
+  }
+
+}
